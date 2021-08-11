@@ -1,0 +1,10 @@
+{
+  "name": "chat-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "sam",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.1.3"
+  }
+}

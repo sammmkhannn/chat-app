@@ -1,0 +1,37 @@
+Arguments: 
+  /home/sam/.nvm/versions/node/v14.15.5/bin/node /home/sam/.nvm/versions/node/v14.15.5/bin/yarn add express
+
+PATH: 
+  /home/sam/.nvm/versions/node/v14.15.5/bin:/home/sam/.cargo/bin:/home/sam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.5
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express: socket hang up
+      at connResetException (internal/errors.js:607:14)
+      at TLSSocket.socketOnEnd (_http_client.js:493:23)
+      at TLSSocket.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "chat-example",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "sam",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
